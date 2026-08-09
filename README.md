@@ -12,16 +12,6 @@
   <img alt="License" src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square">
 </p>
 
----
-
-## 📸 Ekran Görüntüleri
-
-### Ruhunu Yaz (Çeviri Modülü)
-*(Buraya daha sonra uygulamanın ekran görüntüsünü ekleyebilirsiniz)*
-
-### 3D Dijital Müze (Tarihe Dokun)
-*(Buraya daha sonra 3D anıtın ekran görüntüsünü ekleyebilirsiniz)*
-
 > **Digital Göktürk Felsefesi:** Sadece tarihi bir sözlük olmakla kalmayıp, veriyi görselleştiren, kullanıcıya kendi yazdığı metni 3 boyutlu bir taşa kazıma hissi veren ve tamamen açık kaynaklı (GPL-3.0) bir kültürel yazılım mimarisidir.
 
 ---

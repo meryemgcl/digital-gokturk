@@ -7,7 +7,10 @@
     "meaning": "Tanrı, gökyüzü",
     "type": "isim",
     "occurrences": [
-      { "inscription_id": "kt_dogu_1", "word_index": 0 }
+      {
+        "inscription_id": "kt_dogu_1",
+        "word_index": 0
+      }
     ]
   },
   {
@@ -18,7 +21,10 @@
     "meaning": "Türk",
     "type": "isim",
     "occurrences": [
-      { "inscription_id": "kt_dogu_1", "word_index": 4 }
+      {
+        "inscription_id": "kt_dogu_1",
+        "word_index": 4
+      }
     ]
   },
   {
@@ -29,7 +35,10 @@
     "meaning": "Bilge, bilgili",
     "type": "sıfat",
     "occurrences": [
-      { "inscription_id": "kt_dogu_1", "word_index": 5 }
+      {
+        "inscription_id": "kt_dogu_1",
+        "word_index": 5
+      }
     ]
   },
   {
@@ -57,6 +66,330 @@
     "transliteration": "qaɣan",
     "meaning": "Kağan, hükümdar",
     "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_007",
+    "modern_word": "bodun",
+    "old_turkic_runes": "𐰉𐰆𐰑𐰣",
+    "transliteration": "bodun",
+    "meaning": "Millet, boylar birliği, halk",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_008",
+    "modern_word": "yir",
+    "old_turkic_runes": "𐰘𐰃𐰼",
+    "transliteration": "yir",
+    "meaning": "Yer, yeryüzü, toprak",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_009",
+    "modern_word": "sub",
+    "old_turkic_runes": "𐰽𐰆𐰉",
+    "transliteration": "sub",
+    "meaning": "Su, nehir",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_010",
+    "modern_word": "hatun",
+    "old_turkic_runes": "𐰴𐱃𐰆𐰣",
+    "transliteration": "qatun",
+    "meaning": "Hatun, kağanın eşi",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_011",
+    "modern_word": "sü",
+    "old_turkic_runes": "𐰾𐰇",
+    "transliteration": "sü",
+    "meaning": "Ordu, asker",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_012",
+    "modern_word": "er",
+    "old_turkic_runes": "𐰼",
+    "transliteration": "är",
+    "meaning": "Erkek, asker, yiğit",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_013",
+    "modern_word": "alp",
+    "old_turkic_runes": "𐰞𐰯",
+    "transliteration": "alp",
+    "meaning": "Cesur, kahraman, yiğit",
+    "type": "sıfat",
+    "occurrences": []
+  },
+  {
+    "id": "word_014",
+    "modern_word": "kün",
+    "old_turkic_runes": "𐰚𐰇𐰤",
+    "transliteration": "kün",
+    "meaning": "Gün, güneş",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_015",
+    "modern_word": "ay",
+    "old_turkic_runes": "𐰖",
+    "transliteration": "ay",
+    "meaning": "Ay",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_016",
+    "modern_word": "tün",
+    "old_turkic_runes": "𐱅𐰇𐰤",
+    "transliteration": "tün",
+    "meaning": "Gece",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_017",
+    "modern_word": "öd",
+    "old_turkic_runes": "𐰇𐰑",
+    "transliteration": "öd",
+    "meaning": "Zaman, vakit",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_018",
+    "modern_word": "sab",
+    "old_turkic_runes": "𐰽𐰉",
+    "transliteration": "sab",
+    "meaning": "Söz, kelam, haber",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_019",
+    "modern_word": "bitig",
+    "old_turkic_runes": "𐰋𐰃𐱅𐰃𐰏",
+    "transliteration": "bitig",
+    "meaning": "Yazı, kitap, yazıt",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_020",
+    "modern_word": "taş",
+    "old_turkic_runes": "𐱃𐰸",
+    "transliteration": "taş",
+    "meaning": "Taş, kaya",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_021",
+    "modern_word": "altun",
+    "old_turkic_runes": "𐰞𐱃𐰆𐰣",
+    "transliteration": "altun",
+    "meaning": "Altın",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_022",
+    "modern_word": "kümüş",
+    "old_turkic_runes": "𐰚𐰇𐰢𐰇𐰾",
+    "transliteration": "kümüş",
+    "meaning": "Gümüş",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_023",
+    "modern_word": "temir",
+    "old_turkic_runes": "𐱅𐰢𐰼",
+    "transliteration": "tämür",
+    "meaning": "Demir",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_024",
+    "modern_word": "at",
+    "old_turkic_runes": "𐱃",
+    "transliteration": "at",
+    "meaning": "At (hayvan) veya isim",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_025",
+    "modern_word": "it",
+    "old_turkic_runes": "𐰃𐱅",
+    "transliteration": "it",
+    "meaning": "Köpek",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_026",
+    "modern_word": "börü",
+    "old_turkic_runes": "𐰋𐰇𐰼𐰇",
+    "transliteration": "börü",
+    "meaning": "Kurt",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_027",
+    "modern_word": "kuş",
+    "old_turkic_runes": "𐰴𐰆𐰸",
+    "transliteration": "quş",
+    "meaning": "Kuş",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_028",
+    "modern_word": "kel",
+    "old_turkic_runes": "𐰚𐰠",
+    "transliteration": "käl-",
+    "meaning": "Gelmek",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_029",
+    "modern_word": "bar",
+    "old_turkic_runes": "𐰉𐰺",
+    "transliteration": "bar-",
+    "meaning": "Varmak, gitmek, var olmak",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_030",
+    "modern_word": "kör",
+    "old_turkic_runes": "𐰚𐰇𐰼",
+    "transliteration": "kör-",
+    "meaning": "Görmek, bakmak",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_031",
+    "modern_word": "eşit",
+    "old_turkic_runes": "𐰾𐰃𐱅",
+    "transliteration": "äşit-",
+    "meaning": "İşitmek, duymak",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_032",
+    "modern_word": "bil",
+    "old_turkic_runes": "𐰋𐰃𐰠",
+    "transliteration": "bil-",
+    "meaning": "Bilmek",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_033",
+    "modern_word": "kıl",
+    "old_turkic_runes": "𐰴𐰃𐰞",
+    "transliteration": "qıl-",
+    "meaning": "Kılmak, yapmak",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_034",
+    "modern_word": "bol",
+    "old_turkic_runes": "𐰉𐰆𐰞",
+    "transliteration": "bol-",
+    "meaning": "Olmak",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_035",
+    "modern_word": "öl",
+    "old_turkic_runes": "𐰇𐰠",
+    "transliteration": "öl-",
+    "meaning": "Ölmek",
+    "type": "fiil",
+    "occurrences": []
+  },
+  {
+    "id": "word_036",
+    "modern_word": "tirig",
+    "old_turkic_runes": "𐱅𐰃𐰼𐰃𐰏",
+    "transliteration": "tirig",
+    "meaning": "Diri, canlı",
+    "type": "sıfat",
+    "occurrences": []
+  },
+  {
+    "id": "word_037",
+    "modern_word": "yagı",
+    "old_turkic_runes": "𐰖𐰍𐰃",
+    "transliteration": "yağı",
+    "meaning": "Düşman",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_038",
+    "modern_word": "törü",
+    "old_turkic_runes": "𐱅𐰇𐰼𐰇",
+    "transliteration": "törü",
+    "meaning": "Töre, yasa, nizam",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_039",
+    "modern_word": "yok",
+    "old_turkic_runes": "𐰖𐰸",
+    "transliteration": "yoq",
+    "meaning": "Yok, bulunmayan",
+    "type": "sıfat",
+    "occurrences": []
+  },
+  {
+    "id": "word_040",
+    "modern_word": "ol",
+    "old_turkic_runes": "𐰆𐰞",
+    "transliteration": "ol",
+    "meaning": "O (işaret zamiri)",
+    "type": "zamir",
+    "occurrences": []
+  },
+  {
+    "id": "word_041",
+    "modern_word": "ben",
+    "old_turkic_runes": "𐰋𐰤",
+    "transliteration": "bän",
+    "meaning": "Ben (kişi zamiri)",
+    "type": "zamir",
+    "occurrences": []
+  },
+  {
+    "id": "word_042",
+    "modern_word": "sen",
+    "old_turkic_runes": "𐰾𐰤",
+    "transliteration": "sän",
+    "meaning": "Sen (kişi zamiri)",
+    "type": "zamir",
     "occurrences": []
   }
 ]
