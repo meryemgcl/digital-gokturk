@@ -49,6 +49,14 @@ Ardından tarayıcınızda `http://localhost:3000` adresine giderek platformu g�
 
 ---
 
+## 📚 Veri Seti ve Kaynakça
+
+Projedeki Eski Türkçe (Göktürkçe) kelime dağarcığının genişletilmesi aşamasında, açık kaynaklı dilbilimsel veri setlerinden ilham alınmıştır. Özellikle kelimelerin tarihsel analizi ve veri tabanı entegrasyonu için, GitHub'daki [bitigchi/old-turkic-vocabulary](https://github.com/bitigchi/old-turkic-vocabulary) projesi gibi değerli topluluk bazlı derlemelerden ve temel akademik sözlüklerden yararlanılmıştır.
+
+Açık kaynaklı tarihi veri derleyicilerine saygıyla...
+
+---
+
 ## 📜 Lisans
 
 Bu proje **GPL-3.0 (GNU General Public License v3.0)** lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
