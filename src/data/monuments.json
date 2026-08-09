@@ -1,0 +1,10 @@
+[
+  {
+    "id": "kul_tigin",
+    "name": "Kül Tigin Yazıtı",
+    "discovery_year": 1889,
+    "location": "Moğolistan, Orhun Vadisi",
+    "model_3d_url": "/assets/3d/kul_tigin.gltf",
+    "faces": ["dogu", "bati", "kuzey", "guney"]
+  }
+]

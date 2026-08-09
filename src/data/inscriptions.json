@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kt_dogu_1",
+    "monument_id": "kul_tigin",
+    "face": "dogu",
+    "line_number": 1,
+    "original_runes": "𐱅𐰭𐰼𐰃:𐱅𐰏:𐱅𐰭𐰼𐰃𐰓𐰀:𐰉𐰆𐰞𐰢𐰾:𐱅𐰇𐰼𐰰:𐰋𐰃𐰠𐰏𐰀:𐰴𐰍𐰣",
+    "transliteration": "Täŋri täg täŋridä bolmıš Türük Bilgä Qağan",
+    "modern_turkish": "Tanrı gibi gökte olmuş Türk Bilge Kağanı",
+    "coordinates_3d": { "x": 0, "y": 0, "z": 0 }
+  },
+  {
+    "id": "kt_dogu_22",
+    "monument_id": "kul_tigin",
+    "face": "dogu",
+    "line_number": 22,
+    "original_runes": "𐱅𐰇𐰼𐰰:𐰆𐰍𐰕:𐰋𐰏𐰠𐰼𐰃:𐰉𐰆𐰑𐰣:𐰃𐰾𐰓𐰃𐰭",
+    "transliteration": "Türük Oɣuz bägläri bodun ešidiŋ",
+    "modern_turkish": "Türk Oğuz beyleri, milleti, işitin!",
+    "coordinates_3d": { "x": 0, "y": 0, "z": 0 }
+  },
+  {
+    "id": "kt_kuzey_10",
+    "monument_id": "kul_tigin",
+    "face": "kuzey",
+    "line_number": 10,
+    "original_runes": "𐰇𐰔𐰀:𐰚𐰇𐰚:𐱅𐰭𐰼𐰃:𐰽𐰺𐰀:𐰖𐰍𐰔:𐰘𐰼",
+    "transliteration": "Üzä kök täŋri asra yaɣız yär",
+    "modern_turkish": "Üstte mavi gök, altta yağız yer",
+    "coordinates_3d": { "x": 0, "y": 0, "z": 0 }
+  }
+]

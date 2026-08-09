@@ -1,0 +1,62 @@
+[
+  {
+    "id": "word_001",
+    "modern_word": "tanrı",
+    "old_turkic_runes": "𐱅𐰭𐰼𐰃",
+    "transliteration": "täŋri",
+    "meaning": "Tanrı, gökyüzü",
+    "type": "isim",
+    "occurrences": [
+      { "inscription_id": "kt_dogu_1", "word_index": 0 }
+    ]
+  },
+  {
+    "id": "word_002",
+    "modern_word": "türk",
+    "old_turkic_runes": "𐱅𐰇𐰼𐰰",
+    "transliteration": "türük",
+    "meaning": "Türk",
+    "type": "isim",
+    "occurrences": [
+      { "inscription_id": "kt_dogu_1", "word_index": 4 }
+    ]
+  },
+  {
+    "id": "word_003",
+    "modern_word": "bilge",
+    "old_turkic_runes": "𐰋𐰃𐰠𐰏𐰀",
+    "transliteration": "bilgä",
+    "meaning": "Bilge, bilgili",
+    "type": "sıfat",
+    "occurrences": [
+      { "inscription_id": "kt_dogu_1", "word_index": 5 }
+    ]
+  },
+  {
+    "id": "word_004",
+    "modern_word": "bengü",
+    "old_turkic_runes": "𐰋𐰭𐰏𐰇",
+    "transliteration": "bäŋgü",
+    "meaning": "Ebedi, sonsuz",
+    "type": "sıfat",
+    "occurrences": []
+  },
+  {
+    "id": "word_005",
+    "modern_word": "il",
+    "old_turkic_runes": "𐰃𐰠",
+    "transliteration": "il",
+    "meaning": "Devlet, il",
+    "type": "isim",
+    "occurrences": []
+  },
+  {
+    "id": "word_006",
+    "modern_word": "kağan",
+    "old_turkic_runes": "𐰴𐰍𐰣",
+    "transliteration": "qaɣan",
+    "meaning": "Kağan, hükümdar",
+    "type": "isim",
+    "occurrences": []
+  }
+]

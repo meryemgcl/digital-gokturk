@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Turkic&display=swap');
+@import "tailwindcss";
+
+.font-gokturk {
+  font-family: 'Noto Sans Old Turkic', sans-serif;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+}
