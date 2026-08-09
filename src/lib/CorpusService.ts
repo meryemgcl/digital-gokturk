@@ -101,4 +101,37 @@ export class CorpusService {
       return this.transliterateWord(cleanWord) + punctuation;
     }).join(' ');
   }
+
+  static async translateAsync(text: string): Promise<{ translated_text: string, found_words: DictionaryEntry[] }> {
+    try {
+      // Python Backend'ine istek at
+      const response = await fetch('http://localhost:8000/api/translate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text })
+      });
+      if (response.ok) {
+        return await response.json();
+      }
+    } catch (error) {
+      console.warn("Python arka ucu (http://localhost:8000) şu an kapalı. Geri dönüş olarak yerel statik yapı kullanılıyor.");
+    }
+
+    // Python kapalıysa Yerel Geri Dönüş (Fallback)
+    const translated_text = this.translate(text);
+    const found_words: DictionaryEntry[] = [];
+    const words = text.split(/\s+/);
+    for (let word of words) {
+      const cleanWord = word.replace(/[.,!?]/g, '');
+      const entries = this.searchDictionary(cleanWord);
+      if (entries.length > 0) {
+        // Zaten eklenmişse tekrar ekleme
+        if (!found_words.find(w => w.id === entries[0].id)) {
+          found_words.push(entries[0]);
+        }
+      }
+    }
+    
+    return { translated_text, found_words };
+  }
 }

@@ -9,31 +9,24 @@ export default function Translator({ onTranslate }: { onTranslate?: (text: strin
   const [foundWords, setFoundWords] = useState<DictionaryEntry[]>([]);
   const exportRef = useRef<HTMLDivElement>(null);
 
-  const handleTranslate = (text: string) => {
+  const handleTranslate = async (text: string) => {
     setInputText(text);
+    
     if (!text.trim()) {
-      setTranslatedText('');
+      setTranslatedText("");
       setFoundWords([]);
+      onTranslate?.("");
       return;
     }
-    
-    const translated = CorpusService.translate(text);
-    setTranslatedText(translated);
-    if (onTranslate) onTranslate(translated);
-    
-    // Find matched words in corpus
-    const words = text.split(' ');
-    const matched: DictionaryEntry[] = [];
-    words.forEach(word => {
-      const entries = CorpusService.searchDictionary(word);
-      if (entries.length > 0) {
-        // Prevent duplicate highlights
-        if (!matched.some(m => m.id === entries[0].id)) {
-          matched.push(entries[0]);
-        }
-      }
-    });
-    setFoundWords(matched);
+
+    try {
+      const result = await CorpusService.translateAsync(text);
+      setTranslatedText(result.translated_text);
+      setFoundWords(result.found_words);
+      onTranslate?.(result.translated_text);
+    } catch (error) {
+      console.error("Çeviri sırasında hata oluştu", error);
+    }
   };
 
   const handleExport = async () => {
