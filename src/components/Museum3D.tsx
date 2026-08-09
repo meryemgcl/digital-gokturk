@@ -33,7 +33,8 @@ export default function Museum3D({ customText }: { customText?: string }) {
               setRandomInscription(CorpusService.getRandomInscription()); // Tıklanınca yeni söze geç
             }
           }} 
-          cursor="pointer"
+          onPointerOver={() => document.body.style.cursor = 'pointer'}
+          onPointerOut={() => document.body.style.cursor = 'auto'}
         >
           <Box args={[1.5, 4, 1.5]} castShadow receiveShadow>
             <meshStandardMaterial color={activeFace === 'dogu' ? '#5a4f40' : '#3d3730'} roughness={0.9} />
